@@ -211,6 +211,7 @@ export const Home = () => {
               </div>
               <div className="col-6 col-md-4">
                 <img
+                  className="rounded"
                   src="https://www.il-colosseo.it/images/Il_Foro_Romano/Foro_Romano_Colosseo_04.jpg"
                   width="100%"
                   height="100%"
@@ -235,6 +236,7 @@ export const Home = () => {
               </div>
               <div className="col-6 col-md-4">
                 <img
+                  className="rounded"
                   src="https://viajes.nationalgeographic.com.es/medio/2019/06/06/macu_5da3ead6_1200x630.jpg"
                   width="100%"
                   height="100%"

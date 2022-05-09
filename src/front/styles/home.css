@@ -9,7 +9,6 @@
 html {
   margin: 0px;
   padding: 0px;
-  position: relative;
 }
 
 .header {
@@ -29,15 +28,14 @@ body {
   background: url(https://img.freepik.com/vector-gratis/fondo-abstracto-blanco-estilo-papel-3d_23-2148403778.jpg?w=2000);
   background-repeat: no-repeat;
   max-width: 100%;
-  height: 900px;
+  min-height: 920px;
 
   background-size: cover;
   object-fit: cover;
-  padding-bottom: 10%;
 }
 
 .titulo {
-  font-size: 200px;
+  font-size: 120px;
   font-family: "Staatliches", cursive;
   color: white;
   /* margin-top: 5%; */

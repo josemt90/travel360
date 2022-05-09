@@ -43,14 +43,14 @@ export const Register = () => {
       />
       <Navbar />
       <div className="row justify-content-center">
-        <div className="col-md-6 col-sm-4">
-          <h3 className="text-center text-white p-3">User Sing Up</h3>
+        <div className="col-md-6 col-sm-4  ">
+          <h3 className="  text-center text-white p-3">User Sign Up</h3>
 
           <form>
-            <div className="container-sm bg-light rounded opacity-75 p-5">
+            <div className="formulario  container-sm  rounded  p-5">
               <label htmlFor="basic-url" className="form-label"></label>
 
-              <div className="input-group flex-nowrap mb-3">
+              <div className="  input-group flex-nowrap mb-3">
                 <input
                   type="file"
                   className="form-control"
@@ -106,7 +106,7 @@ export const Register = () => {
                   name="last_name"
                   onChange={handleChange}
                   type="text"
-                  className="form-control"
+                  className="form-control text-dark"
                   placeholder="Last Name"
                   aria-label="Last Name"
                   aria-describedby="addon-wrapping"

@@ -109,7 +109,7 @@ export const Navbar = () => {
                     />
                   </svg>
                 </div>
-                Sing up
+                Sign up
               </button>
             </Link>
           </div>
