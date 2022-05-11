@@ -20,7 +20,7 @@ export const SearchSite = (props) => {
         <input
           type="text"
           name="site"
-          className="form-control form-control-lg mx-1 "
+          className="form-control form-control-lg mx-1 text-dark fw-bold "
           id="formId"
           onChange={handleChange}
           placeholder="Add place or monument"
@@ -29,7 +29,7 @@ export const SearchSite = (props) => {
         <button
           type="button"
           onClick={handleSubmit}
-          className="btn btn-light text-secondary fw-bold "
+          className="btn btn-dark text-light fw-bold px-5 "
         >
           Explore
         </button>

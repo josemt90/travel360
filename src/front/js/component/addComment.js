@@ -17,6 +17,7 @@ export const AddComment = (props) => {
   const sendComment = () => {
     actions.addComment(data);
     console.log(data);
+    location.reload();
   };
 
   return (
@@ -26,7 +27,7 @@ export const AddComment = (props) => {
           <div className="card-body">
             <div className="mb-3">
               <label for="comment" className="form-label fw-bold">
-                Whrite your comment
+                Write your comment
               </label>
               <textarea
                 className="form-control"

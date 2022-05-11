@@ -17,3 +17,7 @@ h1 {
 p {
   color: black;
 }
+
+button.fa-heart.active {
+  color: black;
+}

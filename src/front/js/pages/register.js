@@ -53,7 +53,7 @@ export const Register = () => {
               <div className="  input-group flex-nowrap mb-3">
                 <input
                   type="file"
-                  className="form-control"
+                  className="form-control text-dark fw-bold"
                   id="inputGroupFile04"
                   aria-describedby="inputGroupFileAddon04"
                   aria-label="Upload"
@@ -78,7 +78,7 @@ export const Register = () => {
                   name="name"
                   onChange={handleChange}
                   type="text"
-                  className="form-control"
+                  className="form-control text-dark fw-bold"
                   placeholder="Name"
                   aria-label="Name"
                   aria-describedby="addon-wrapping"
@@ -106,7 +106,7 @@ export const Register = () => {
                   name="last_name"
                   onChange={handleChange}
                   type="text"
-                  className="form-control text-dark"
+                  className="form-control text-dark fw-bold"
                   placeholder="Last Name"
                   aria-label="Last Name"
                   aria-describedby="addon-wrapping"
